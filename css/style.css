@@ -1,0 +1,186 @@
+/*
+* Style for ecolab.ru
+* author : Bloodlog
+* http://web-fomin.ru
+*/
+body{
+	font-size: 1em;
+}
+
+.header{
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 0 !important;
+}
+	.navbar{
+		background-color: #fff;
+	}
+	.header .navbar-header .navbar-brand{
+		padding: 5px 5px !important;
+		height: auto !important;
+	}
+		.header .navbar-header .navbar-brand img{
+		    display: inline-block;
+		}
+	.header #mobile-menu{
+		float: right;
+		padding: 5px !important;
+		border:none;
+		background-color: transparent;
+		font-size: 44px;
+	}
+	.header #menu{
+		display: none;
+	}
+	.header  #menu>li>a{
+		padding-top: 27px !important;
+		padding-bottom:  27px !important;
+		color: black;
+		font-weight: bold;
+		
+	}
+	.header .number>li>a{
+		text-align: center;
+		color:black;
+		font-size: 1.4em !important;
+	}
+
+.wrapper{
+	height: 696px;
+}
+.call{
+	text-align: center;
+	}
+	.call>.call-button {
+		max-width: 100%;
+		background: #f86346;
+	    border-bottom: solid 2px #db4e40;
+	    border-color: #f86346;
+	   	
+	   	font-size: 1em;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+
+	.desc{
+		text-align: center;
+	}	
+	.desc img{
+		width: 80px;
+	}
+/*Modal form*/
+.modal-form{
+	display: none;
+	width: 480px;
+	border: 2px #fff solid;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: transparent;
+	margin: 30px auto;
+}	
+.modal-content{
+	background-color: transparent !important;
+}
+/*Main Page*/
+#main{
+	color: #fff;
+	font-weight: 500;
+	background-color: #000;
+	background-image: url(../images/bg1.jpg);
+	background-position: bottom center;
+	background-size: cover;
+}
+	#main .title{
+		padding-top: 80px;
+		text-align: center;
+	}
+
+
+/*About Page*/
+#about{
+
+}
+#about .title{
+	padding-top: 60px;
+	color: #3A608D;
+	font-size: 40px;
+	text-align: center;
+}
+#about .desc{
+	text-align: center;
+}
+#about .desc h1{
+	font-size: 96px;
+}
+#about .desc h6{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#about .desc p{
+	letter-spacing: 0.02em;
+}
+
+/*Quick-sale Page*/
+#quick-sale{
+	color: #fff;
+	font-weight: 500;
+	background-color: #000;
+	background-image: url(../images/bg9.jpg);
+	background-position: bottom center;
+	background-size: cover;
+}
+	#quick-sale .title{
+		padding-top: 80px;
+		text-align: center;
+	}
+	#quick-sale .desc{
+		text-align: center;
+	}
+
+
+/* Invate Page*/
+#invite{
+	color: #fff;
+	font-weight: 500;
+	background-color: #000;
+	background-image: url(../images/bg7.jpg);
+	background-position: bottom center;
+	background-size: cover;
+}
+#invite .title{
+	text-align: center;
+}
+
+/* Comment Page */
+#comments{
+	background-color: #F5F5F9;
+}
+
+/* Working Page */
+#working{
+	color: #fff;
+	font-weight: 500;
+	background-color: #000;
+	background-image: url(../images/bg9.jpg);
+	background-position: bottom center;
+	background-size: cover;
+}
+/* Partner Page */
+#partner{
+	background-color: #F5F5F9;
+}
+
+
+/* Footer*/
+#footer{
+	position: absolute;
+	bottom: 0px;
+	background-color: #F5F5F9;
+}
+
+.noheight{
+	height: auto;
+}

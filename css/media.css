@@ -1,0 +1,63 @@
+/*
+* Style for ecolab.ru
+* author : Bloodlog
+* http://web-fomin.ru
+*/
+@media  screen and(min-width : 480px){
+	
+}
+@media only screen and (min-width : 768px){
+	body{
+		font-size: 1.2em;
+	}
+	.header{
+		position: fixed;
+		margin-bottom: 20px !important;
+	}
+	.header #mobile-menu{
+		display: none;
+	}
+	.header #menu{
+		display: block;
+	}
+	.header  #menu>li>a{
+		padding: 0 16px;
+	}
+	.call>.call-button{
+		/*padding: 2em 5em 2em 5em;*/
+		font-size: 1.1875em;
+		padding: 2em 5em 2em 5em;
+	}
+	.header .number{
+		width: auto;
+		float: right !important;
+	}
+	.header .number>li>a{
+		padding-top: 27px !important;
+		padding-bottom:  27px !important;
+		color: black;
+
+		font-weight: bold;
+		padding: 0 16px;
+	}
+
+}
+@media only screen and (min-width : 992px){
+	.header  #menu>li>a{
+		padding: 0 34px;
+	}
+	.header .number>li>a{
+		padding-top: 27px !important;
+		padding-bottom:  27px !important;
+		color: black;
+
+		font-weight: bold;
+		padding: 0 34px;
+	}
+
+}
+@media only screen and (min-width : 1200px){
+	body{
+		font-size: 1.4em;
+	}
+}
